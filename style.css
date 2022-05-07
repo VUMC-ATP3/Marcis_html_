@@ -1,39 +1,37 @@
-.note {
-    color:blue;
-}
-#pirmaisHeading {
-    font-style: italic;
-}
-h3 {
-    color:blueviolet;
-    background-color: black;
-}
-
-.full { 
-    border-style: groove;
+.full {
     display: grid;
     grid-template-columns: 2fr 4fr;
     grid-template-columns: 30% 70%;
-
-
-    
-
 }
 
-.left {
-background-color: rgb(122, 102, 11);
-
-    
-    
-    
-
+.left { 
+    background-color:olive;
 }
 
 .right {
-background-color: darkblue;
+    background-color: khaki;
+}
 
-    
-    
-    
+#virsraksts { 
+    padding-left: 20px;
+}
 
+.apaksvirsraksts {
+    padding-left: 20px;
+}
+
+#aboutMe {
+    padding-left: 40px;
+    padding-right: 300px;
+}
+
+.eInfo {
+    color: olive;
+}
+.leftHeading {
+    color:khaki;
+}
+
+.rightHeading {
+    color: olive;
 }
